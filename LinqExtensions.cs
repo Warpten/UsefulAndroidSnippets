@@ -19,7 +19,7 @@ namespace Deezy
             return -1;
         }
 
-        // Or ...
+        // Or ... (this one avoids heap allocation for the enumerator)
 
         public static int IndexOf<T>(this IList<T> arr, Func<T, bool> fn)
         {
