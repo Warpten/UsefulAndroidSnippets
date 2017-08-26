@@ -1,6 +1,6 @@
 using Android.Support.V7.Widget;
 
-namespace Warpten.UI
+namespace Warpten.Utils.UI
 {
     public sealed class Recycler<T> where T : RecyclerView.Adapter
     {
