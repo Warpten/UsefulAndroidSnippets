@@ -16,7 +16,7 @@ namespace Deezy
 
                 ++idx;
             }
-            return idx;
+            return -1;
         }
 
         // Or ...
@@ -31,7 +31,7 @@ namespace Deezy
 
                 ++idx;
             }
-            return idx;
+            return -1;
         }
     }
 }
