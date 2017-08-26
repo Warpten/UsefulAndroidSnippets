@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Deezy
+namespace Warpten.Utils
 {
     public static class LinqExtensions
     {
